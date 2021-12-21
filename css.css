@@ -1,0 +1,23 @@
+.body {
+    background-image: url("https://thumbor.4gamers.com.tw/9dManFwMin7O1qe8RVALDMQXh2k=/800x0/filters:extract_cover():no_upscale():quality(80):format(jpeg):background_color(FFFFFF)/https%3A%2F%2Fimg.4gamers.com.tw%2Fckfinder%2Fimages%2FALIEN%2F2021-7%2FImage%20045.png%3FversionId%3D63SAsPc8eBWcowJJydK2wQTFUVwqOXP8");
+    background-repeat: no-repeat;
+    background-color: rgb(0, 255, 136);
+    background-size: cover;
+}
+
+.label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+    size: 100px;
+}
+
+input,
+.label {
+    margin: .4rem 1.5;
+}
+
+.p {
+    font-size: 60px;
+    color: rgb(211, 18, 147);
+    text-align: center;
+}
