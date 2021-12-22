@@ -27,7 +27,7 @@ function LOL() {
 function changecolor1() {
 document.getElementById("bg").style.backgroundColor="#F00";
 }
-unction changesize() {
-                document.getElementsByClassName("btn").style.width="200px";
-                document.getElementsByClassName("btn").style.height="200px";
-            }
+function changesize() {
+document.getElementsByClassName("btn").style.width="200px";
+ocument.getElementsByClassName("btn").style.height="200px";
+}
