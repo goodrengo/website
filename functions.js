@@ -1,5 +1,5 @@
 function At() {
-    alert("surprise mother fucker");
+    alert("surprise!!");
 }
 
 function AK() {
@@ -24,10 +24,12 @@ function LOL() {
         "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     )
 }
+
 function changecolor1() {
-document.getElementById("bg").style.backgroundColor="#F00";
+    document.getElementById("bg").style.backgroundColor = "#F00";
 }
+
 function changesize() {
-document.getElementsByClassName("btn").style.width="200px";
-ocument.getElementsByClassName("btn").style.height="200px";
+    document.getElementsByClassName("btn").style.width = "200px";
+    ocument.getElementsByClassName("btn").style.height = "200px";
 }

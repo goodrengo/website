@@ -5,6 +5,10 @@
             var ws = new ActiveXObject("WScript.Shell");
             ws.run(command);
         }
+
+        function hello() {
+            alert("Hey Hey BOi");
+        }
     </script>
     <link rel="stylesheet" type="text/css" href="css.css">
     <meta charset='UTF-8'></meta>
@@ -12,21 +16,25 @@
         自主學習期末報告-網頁設計
     </title>
 
-    <body class=body>自主學習期末報告<br>501 02 張佑晨<br>
-        <p class="p">自主學習成果期末報告</p>
+    <body class=body onload="hello()">
+        <p class="p">自主學習成果期末報告<br>501 張佑晨<br>501 林鉑陞<br>501 林穎昕<br>501 林展酉</p>
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10">
-        <input type="button" class='btn' value="酷東西">
         <button onclick="At()">成果一</button>
         <button onclick="AK()">成果二</button>
         <input type="submit" value="送出">
         <input type="checkbox" id="myCheck" onmouseover="pressed()" onclick="alert('哈哈你以為你又要被釣到了嗎?')">
-        <input type="button" value="成果1" onclick="LOL()">
+        <input type="button" value="成果三" onclick="LOL()">
         <div id="header">
             <h1>簡單呼叫python</h1>
         </div>
         <div id="nav"> 簡單呼叫python
             <a href="worms.py" target="show"> 程式碼 </a>
-        </div>
+            <div id="nav"> python程式
+                <a href="worms.py"> 程式 </a>
+            </div>
+            <div id="section">
+                <h2>程式碼框 </h2> <iframe name="show" id="show" width="1100" height="466" />
+            </div>
     </body>
 </head>
