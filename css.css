@@ -1,7 +1,6 @@
 .body {
-    background-image: url("https://thumbor.4gamers.com.tw/9dManFwMin7O1qe8RVALDMQXh2k=/800x0/filters:extract_cover():no_upscale():quality(80):format(jpeg):background_color(FFFFFF)/https%3A%2F%2Fimg.4gamers.com.tw%2Fckfinder%2Fimages%2FALIEN%2F2021-7%2FImage%20045.png%3FversionId%3D63SAsPc8eBWcowJJydK2wQTFUVwqOXP8");
     background-repeat: no-repeat;
-    background-color: rgb(0, 255, 136);
+    background-color: rgb(241, 184, 237);
     background-size: cover;
 }
 
@@ -18,7 +17,6 @@ input,
 
 .p {
     font-size: 60px;
-    color: rgb(211, 18, 147);
+    color: rgba(255, 0, 0);
     text-align: center;
-　  font-family:serif,sans-serif,cursive,fantasy,monospace;
 }

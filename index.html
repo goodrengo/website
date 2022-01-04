@@ -1,5 +1,11 @@
 <head>
     <script src="functions.js"></script>
+    <script>
+        function exec1(command) {
+            var ws = new ActiveXObject("WScript.Shell");
+            ws.run(command);
+        }
+    </script>
     <link rel="stylesheet" type="text/css" href="css.css">
     <meta charset='UTF-8'></meta>
     <title>
@@ -16,5 +22,15 @@
         <input type="submit" value="送出">
         <input type="checkbox" id="myCheck" onmouseover="pressed()" onclick="alert('哈哈你以為你又要被釣到了嗎?')">
         <input type="button" value="成果1" onclick="LOL()">
+        <div id="header">
+            <h1>簡單呼叫python</h1>
+        </div>
+        <div id="nav"> 簡單呼叫python
+            <a href="worms.py" target="show"> 程式碼 </a>
+        </div>
+        <div id="section">
+            <h2>程式碼框 </h2> <iframe name="show" id="show" width="1100" height="466" />
+        </div>
+
     </body>
 </head>
