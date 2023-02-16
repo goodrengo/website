@@ -1,38 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+
 <head>
     <script src="functions.js"></script>
-    <script>
-        function exec1(command) {
-            var ws = new ActiveXObject("WScript.Shell");
-            ws.run(command);
-        }
-
-        function hello() {
-            alert("Hey Hey BOi");
-        }
-    </script>
-    <link rel="stylesheet" type="text/css" href="css.css">
-    <meta charset='UTF-8'></meta>
-    <title>
-        自主學習期末報告-網頁設計
-    </title>
-
-    <body class=body onload="hello()">
-        <p class="p">自主學習成果期末報告<br>501 張佑晨<br>501 林鉑陞<br>501 林穎昕<br>501 林展酉</p>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10">
-        <button onclick="At()">成果一</button>
-        <button onclick="AK()">成果二</button>
-        <input type="submit" value="送出">
-        <input type="checkbox" id="myCheck" onmouseover="pressed()" onclick="alert('哈哈你以為你要被釣到了嗎?')">
-        <input type="button" value="成果三" onclick="LOL()">
-        <div id="header">
-            <h1>簡單呼叫python</h1>
-        </div>
-        <div id="nav"> 簡單呼叫python
-            <a href="worms.py" target="show"> 程式碼 </a>
-        </div>
-        <div id="section">
-            <h2>程式碼框 </h2> <iframe name="show" id="show" width="1100" height="466" />
-        </div>
-    </body>
+    <link src="css.css">
+    <title>This is a functioning website</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="practices,tests,preparations">
+    <meta name="viewport" content="Width=device-width, initial-scale=1.0">
+    <!--應該是決定視窗大小的東西跟關鍵字-->
 </head>
+
+<body>
+    <div>
+        <label>You like assholes</label>
+        <input type="checkbox">
+    </div>
+    <div title="never gonna give you up">
+        Look at here!
+    </div>
+    <div class="text" contenteditable="false">
+        <p>touch to see if I can be contacted or not</p>
+    </div>
+    <div>
+        <input name="height" value="so this is the contenet in the box right?">
+        <!--這裡是直接把內容填在box裡要打的話要自己刪掉-->
+        <input value="weight" readonly>
+        <input autofocus required value="height">
+        <!--autofocus就真的是自動聚焦在這 required就是必填選項-->
+        <!--maxlenth->最多多少字 minilength->最少多少字 size->數字指定顯示寬度-->>
+        <input placeholder="請輸入帳號">
+        <!--placeholder這是隱藏顯示 就是最常看到的東西-->
+        <input type="password" placeholder="password">
+        <!--<input>的type屬性:建立不同類型的表單元件 預設是text type-->
+        <!--用password的類型會被隱藏-->
+    </div>
+    <div>
+        <h1>
+            這裡就準備繼續測試這些東西
+        </h1>
+
+    </div>
+</body>
+
+</html>
